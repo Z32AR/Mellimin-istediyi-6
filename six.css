@@ -1,0 +1,38 @@
+body {
+    background-color: #EA9A52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.circle {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    background-color: rgb(67,89,152);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.circle_ {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    background-color:  #EA9A52;
+    border-radius: 50%;
+}
+
+.line {
+    position: absolute;
+    width: 150px;
+    height: 34px;
+    background-color: rgb(67,89,152);
+    top: -26px;
+    left: -1px;
+    rotate: -50deg;
+}
